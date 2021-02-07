@@ -26,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Cpp" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -43,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager" selected="CMake Application.Motorcycle">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
@@ -83,7 +84,7 @@
       <workItem from="1612189524528" duration="1561000" />
       <workItem from="1612456014225" duration="3286000" />
       <workItem from="1612652484377" duration="10000" />
-      <workItem from="1612652554649" duration="7698000" />
+      <workItem from="1612652554649" duration="8778000" />
     </task>
     <servers />
   </component>
