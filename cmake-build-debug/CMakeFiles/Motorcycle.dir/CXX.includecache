@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/patel/Desktop/HunterCollege/motorcycle/Motorcycle.cpp
+Motorcycle.hpp
+/Users/patel/Desktop/HunterCollege/motorcycle/Motorcycle.hpp
+iostream
+/Users/patel/Desktop/HunterCollege/motorcycle/iostream
+string
+/Users/patel/Desktop/HunterCollege/motorcycle/string
+
+/Users/patel/Desktop/HunterCollege/motorcycle/Motorcycle.hpp
+string
+-
+
