@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Cars
+
+# Build rule for target.
+Cars: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Cars
+.PHONY : Cars
+
+# fast build rule for target.
+Cars/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/build
+.PHONY : Cars/fast
+
+#=============================================================================
 # Target rules for targets named Motorcycle
 
 # Build rule for target.
@@ -155,6 +168,195 @@ Test: cmake_check_build_system
 Test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
 .PHONY : Test/fast
+
+cars/Bus.o: cars/Bus.cpp.o
+
+.PHONY : cars/Bus.o
+
+# target to build an object file
+cars/Bus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Bus.cpp.o
+.PHONY : cars/Bus.cpp.o
+
+cars/Bus.i: cars/Bus.cpp.i
+
+.PHONY : cars/Bus.i
+
+# target to preprocess a source file
+cars/Bus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Bus.cpp.i
+.PHONY : cars/Bus.cpp.i
+
+cars/Bus.s: cars/Bus.cpp.s
+
+.PHONY : cars/Bus.s
+
+# target to generate assembly for a file
+cars/Bus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Bus.cpp.s
+.PHONY : cars/Bus.cpp.s
+
+cars/Car.o: cars/Car.cpp.o
+
+.PHONY : cars/Car.o
+
+# target to build an object file
+cars/Car.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Car.cpp.o
+.PHONY : cars/Car.cpp.o
+
+cars/Car.i: cars/Car.cpp.i
+
+.PHONY : cars/Car.i
+
+# target to preprocess a source file
+cars/Car.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Car.cpp.i
+.PHONY : cars/Car.cpp.i
+
+cars/Car.s: cars/Car.cpp.s
+
+.PHONY : cars/Car.s
+
+# target to generate assembly for a file
+cars/Car.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Car.cpp.s
+.PHONY : cars/Car.cpp.s
+
+cars/Garage.o: cars/Garage.cpp.o
+
+.PHONY : cars/Garage.o
+
+# target to build an object file
+cars/Garage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Garage.cpp.o
+.PHONY : cars/Garage.cpp.o
+
+cars/Garage.i: cars/Garage.cpp.i
+
+.PHONY : cars/Garage.i
+
+# target to preprocess a source file
+cars/Garage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Garage.cpp.i
+.PHONY : cars/Garage.cpp.i
+
+cars/Garage.s: cars/Garage.cpp.s
+
+.PHONY : cars/Garage.s
+
+# target to generate assembly for a file
+cars/Garage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Garage.cpp.s
+.PHONY : cars/Garage.cpp.s
+
+cars/Motorcycle.o: cars/Motorcycle.cpp.o
+
+.PHONY : cars/Motorcycle.o
+
+# target to build an object file
+cars/Motorcycle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Motorcycle.cpp.o
+.PHONY : cars/Motorcycle.cpp.o
+
+cars/Motorcycle.i: cars/Motorcycle.cpp.i
+
+.PHONY : cars/Motorcycle.i
+
+# target to preprocess a source file
+cars/Motorcycle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Motorcycle.cpp.i
+.PHONY : cars/Motorcycle.cpp.i
+
+cars/Motorcycle.s: cars/Motorcycle.cpp.s
+
+.PHONY : cars/Motorcycle.s
+
+# target to generate assembly for a file
+cars/Motorcycle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Motorcycle.cpp.s
+.PHONY : cars/Motorcycle.cpp.s
+
+cars/Truck.o: cars/Truck.cpp.o
+
+.PHONY : cars/Truck.o
+
+# target to build an object file
+cars/Truck.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Truck.cpp.o
+.PHONY : cars/Truck.cpp.o
+
+cars/Truck.i: cars/Truck.cpp.i
+
+.PHONY : cars/Truck.i
+
+# target to preprocess a source file
+cars/Truck.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Truck.cpp.i
+.PHONY : cars/Truck.cpp.i
+
+cars/Truck.s: cars/Truck.cpp.s
+
+.PHONY : cars/Truck.s
+
+# target to generate assembly for a file
+cars/Truck.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Truck.cpp.s
+.PHONY : cars/Truck.cpp.s
+
+cars/Vehicle.o: cars/Vehicle.cpp.o
+
+.PHONY : cars/Vehicle.o
+
+# target to build an object file
+cars/Vehicle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Vehicle.cpp.o
+.PHONY : cars/Vehicle.cpp.o
+
+cars/Vehicle.i: cars/Vehicle.cpp.i
+
+.PHONY : cars/Vehicle.i
+
+# target to preprocess a source file
+cars/Vehicle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Vehicle.cpp.i
+.PHONY : cars/Vehicle.cpp.i
+
+cars/Vehicle.s: cars/Vehicle.cpp.s
+
+.PHONY : cars/Vehicle.s
+
+# target to generate assembly for a file
+cars/Vehicle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/Vehicle.cpp.s
+.PHONY : cars/Vehicle.cpp.s
+
+cars/main.o: cars/main.cpp.o
+
+.PHONY : cars/main.o
+
+# target to build an object file
+cars/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/main.cpp.o
+.PHONY : cars/main.cpp.o
+
+cars/main.i: cars/main.cpp.i
+
+.PHONY : cars/main.i
+
+# target to preprocess a source file
+cars/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/main.cpp.i
+.PHONY : cars/main.cpp.i
+
+cars/main.s: cars/main.cpp.s
+
+.PHONY : cars/main.s
+
+# target to generate assembly for a file
+cars/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/main.cpp.s
+.PHONY : cars/main.cpp.s
 
 motorcycle/Motorcycle.o: motorcycle/Motorcycle.cpp.o
 
@@ -218,8 +420,30 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Cars"
 	@echo "... Motorcycle"
 	@echo "... Test"
+	@echo "... cars/Bus.o"
+	@echo "... cars/Bus.i"
+	@echo "... cars/Bus.s"
+	@echo "... cars/Car.o"
+	@echo "... cars/Car.i"
+	@echo "... cars/Car.s"
+	@echo "... cars/Garage.o"
+	@echo "... cars/Garage.i"
+	@echo "... cars/Garage.s"
+	@echo "... cars/Motorcycle.o"
+	@echo "... cars/Motorcycle.i"
+	@echo "... cars/Motorcycle.s"
+	@echo "... cars/Truck.o"
+	@echo "... cars/Truck.i"
+	@echo "... cars/Truck.s"
+	@echo "... cars/Vehicle.o"
+	@echo "... cars/Vehicle.i"
+	@echo "... cars/Vehicle.s"
+	@echo "... cars/main.o"
+	@echo "... cars/main.i"
+	@echo "... cars/main.s"
 	@echo "... motorcycle/Motorcycle.o"
 	@echo "... motorcycle/Motorcycle.i"
 	@echo "... motorcycle/Motorcycle.s"

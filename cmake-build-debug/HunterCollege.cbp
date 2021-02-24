@@ -37,6 +37,48 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Cars">
+				<Option output="/Users/patel/Desktop/HunterCollege/cmake-build-debug/Cars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/patel/Desktop/HunterCollege/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cars"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cars/fast">
+				<Option output="/Users/patel/Desktop/HunterCollege/cmake-build-debug/Cars" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/patel/Desktop/HunterCollege/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cars/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/patel/Desktop/HunterCollege/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Motorcycle">
 				<Option output="/Users/patel/Desktop/HunterCollege/cmake-build-debug/Motorcycle" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/patel/Desktop/HunterCollege/cmake-build-debug"/>
@@ -122,6 +164,45 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Bus.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Bus.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Car.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Car.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Garage.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Garage.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Motorcycle.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Motorcycle.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Truck.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Truck.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Vehicle.cpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/Vehicle.hpp">
+			<Option target="Cars"/>
+		</Unit>
+		<Unit filename="/Users/patel/Desktop/HunterCollege/cars/main.cpp">
+			<Option target="Cars"/>
+		</Unit>
 		<Unit filename="/Users/patel/Desktop/HunterCollege/motorcycle/Motorcycle.cpp">
 			<Option target="Motorcycle"/>
 		</Unit>

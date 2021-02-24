@@ -1,2 +1,5 @@
 cmake-build-debug/
 .idea/
+*.xml
+*.log
+.DS_Store

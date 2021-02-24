@@ -99,7 +99,6 @@ float Motorcycle::ride(float duration) {
     return (this->curr_speed_ * duration);
 }
 
-
 int main() {
 
     Motorcycle motorcycle = *new Motorcycle(1);

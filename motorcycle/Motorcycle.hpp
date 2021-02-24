@@ -33,12 +33,10 @@ private:
     float distance_traveled_;                      // total distance that the caller has traveled since instantiation
     int seat_height_;                              // seat height of caller bike in inches
     bike_details::acceleration curr_acceleration_; // enum defined as the the rotations-per-minute (RPM) of the caller's wheels
-
     /**
         alters curr_speed_ depending on curr_speed_, curr_pedal_intensity_, and b_type_
     */
     void updateSpeed();
-
 public:
     /* Default Constructor */
     Motorcycle();
