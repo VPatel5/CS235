@@ -1,8 +1,5 @@
 #include "Garage.hpp"
 #include "cmath"
-#include "Car.hpp"
-#include "Truck.hpp"
-#include "iostream"
 
 namespace null
 {
@@ -45,7 +42,7 @@ void Garage::arrange() {
 
 bool Garage::addVehicle(Vehicle to_add) {
     if (isFull()) return false;
-    if (num_vehicles_ + to_add.getSpaces() > capacity_) return false;
+    if (current_length_ + to_add.getSpaces() > capacity_) return false;
 
     // Add new car
     arr_[current_length_] = to_add;

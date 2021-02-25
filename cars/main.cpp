@@ -1,7 +1,3 @@
-//
-// Created by Patel on 2/24/21.
-//
-
 #include "Garage.hpp"
 #include "Car.hpp"
 #include "Truck.hpp"
@@ -11,7 +7,7 @@
 using namespace std;
 
 int main() {
-    Garage g;
+    Garage g(10);
     Car c("Camry", "Toyota", 123, 213, 132);
     Car lambo("Aventador", "Lamborghini", 123, 213, 132);
     Truck t("T680", "KENWORTH", 134, 314, 314, 1);
@@ -21,11 +17,7 @@ int main() {
     g.addVehicle(c);
     g.addVehicle(b);
     g.display();
-    cout << g.swapVehicles(lambo, c) << endl;
-    g.display();
-    cout << g.swapVehicles(m, b) << endl;
-    g.display();
-    cout << g.swapVehicles(t, lambo) << endl;
+    g.addVehicle(t);
     g.display();
 
     return 0;

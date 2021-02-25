@@ -14,40 +14,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cars/Bus.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Bus.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Car.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Car.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Garage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Garage.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Motorcycle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Motorcycle.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Truck.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Truck.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Vehicle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/Vehicle.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HunterCollege.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HunterCollege.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HunterCollege.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/HunterCollege.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Test.dir/test.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Bus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Bus.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Bus.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Bus.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Car.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Car.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Car.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Garage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Garage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Motorcycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Motorcycle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Motorcycle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Motorcycle.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Truck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Truck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/Truck.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Truck.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motorcycle/Motorcycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/motorcycle/Motorcycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/motorcycle/Motorcycle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/motorcycle/Motorcycle.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/adawd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +54,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -90,11 +73,6 @@
       </method>
     </configuration>
     <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Test">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -122,7 +100,8 @@
       <workItem from="1613761234947" duration="6000" />
       <workItem from="1613845414062" duration="529000" />
       <workItem from="1613924222663" duration="8557000" />
-      <workItem from="1614193092311" duration="3698000" />
+      <workItem from="1614193092311" duration="5200000" />
+      <workItem from="1614275363665" duration="313000" />
     </task>
     <servers />
   </component>
@@ -140,5 +119,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cars/Vehicle.hpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,7 +1,3 @@
-//
-// Created by Patel on 2/21/21.
-//
-
 #include "Truck.hpp"
 
 using namespace std;
