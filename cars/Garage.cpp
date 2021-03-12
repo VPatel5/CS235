@@ -1,7 +1,6 @@
 #include "Garage.hpp"
 #include "cmath"
 
-
 namespace null
 {
     Vehicle v;
@@ -41,7 +40,7 @@ void GarageOld::arrange() {
     current_length_ = new_current_length;
 }
 
-bool Gar#include "Garage.hpp"
+#include "Garage.hpp"
 #include "cmath"
 
 

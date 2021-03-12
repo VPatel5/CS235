@@ -14,24 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/garage/Garage.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garage/Garage.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garage/Object.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garage/Vehicle.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/garage/test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/Garage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Garage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/Garage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/garage/Garage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/Garage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/garage/Garage.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/garage/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/garage/test.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +70,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -113,6 +101,7 @@
       <workItem from="1615327226639" duration="210000" />
       <workItem from="1615327492856" duration="2491000" />
       <workItem from="1615419483609" duration="899000" />
+      <workItem from="1615575197955" duration="8150000" />
     </task>
     <servers />
   </component>
@@ -141,6 +130,10 @@
           <url>file://$PROJECT_DIR$/cars/Vehicle.hpp</url>
           <line>9</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/cars/Garage.cpp</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

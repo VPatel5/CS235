@@ -4,15 +4,13 @@ Authors      : Violent (captain), Khan, Yash, Nigel
 Description  : header/interface file of a Garage class which borrows heavily from the ArrayBag ADT
 ****************************************************************************************************************************/
 
-#ifndef GARAGE_H_
-#define GARAGE_H_
+#ifndef GARAGE_
+#define GARAGE_
 
 #include <vector>
-#include "Vehicle.hpp"
-#include "Object.hpp"
 
 template <typename ItemType>
-class Garage : public Vehicle, Object
+class Garage
 {
 
 public:

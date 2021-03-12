@@ -1,5 +1,4 @@
-#include <iostream>
-#include "Garage.hpp"
+#include "iostream"
 
 template <typename ItemType>
 Garage<ItemType>::Garage(size_t capacity): items_{new ItemType[capacity]}, spaces_occupied_{0}, capacity_{capacity}
@@ -21,9 +20,13 @@ template<typename ItemType>
 bool Garage<ItemType>::add(const ItemType &to_add) {
     if (isFull()) return false;
 
-    items_[spaces_occupied_] = to_add;
+    if (spaces_occupied_ + to_add.getSpaces() > capacity_) return false;
 
-    spaces_occupied_++;
+    for (int i = 0; i < to_add.getSpaces(); i++) {
+        items_[spaces_occupied_] = to_add;
+        spaces_occupied_++;
+    }
+
     return true;
 }
 
@@ -34,16 +37,32 @@ bool Garage<ItemType>::remove(const ItemType &to_remove) {
     int index = getIndexOf(to_remove);
     if (index == -1) return false;
 
-    items_[index] = items_[spaces_occupied_];
-    spaces_occupied_--;
+    int new_current_length = 0;
+    ItemType *newArr_ = new ItemType[capacity_];
+
+    for (int i = 0; i < spaces_occupied_; i++) {
+        if (items_[i] != to_remove) {
+            newArr_[new_current_length] = items_[i];
+            new_current_length++;
+        }
+    }
+
+    items_ = newArr_;
+    spaces_occupied_ = new_current_length;
+
+    return true;
 }
 
 template<typename ItemType>
 bool Garage<ItemType>::swap(ItemType in, ItemType out) {
 
-    remove(out);
+    bool success = remove(out);
 
-    return add(in);
+    if (success) {
+        return add(in);
+    }
+
+    return success;
 }
 
 template<typename ItemType>
@@ -60,7 +79,7 @@ int Garage<ItemType>::getFrequencyOf(const ItemType &an_entry) const {
         index++;
     }
 
-    return counter;
+    return counter / an_entry.getSpaces();
 }
 
 template<typename ItemType>
@@ -68,7 +87,9 @@ std::vector <ItemType> Garage<ItemType>::toVector() const {
     std::vector<ItemType> garage;
 
     for (int i = 0; i < spaces_occupied_; i++) {
-        garage.push_back(items_[i]);
+        ItemType type = items_[i];
+        garage.push_back(type);
+        i += type.getSpaces() - 1;
     }
 
     return garage;
@@ -91,11 +112,12 @@ bool Garage<ItemType>::contains(const ItemType &an_entry) const {
 
 template<typename ItemType>
 void Garage<ItemType>::display() const {
+    ItemType old;
     for (int i = 0; i < spaces_occupied_; i++) {
         ItemType type = items_[i];
-        if (instanceof<Object>(type)) {
-            dynamic_cast<Object>(type).getManufacturer();
-        }
+        if (old == type) continue;
+        std::cout << type.getName() << " " << type.getManufacturer() << std::endl;
+        old = type;
     }
 }
 
@@ -117,13 +139,9 @@ void Garage<ItemType>::operator/=(const Garage <ItemType> &a_garage) {
 template<typename ItemType>
 int Garage<ItemType>::getIndexOf(const ItemType &target) const {
 
-    int index = 0;
-    while (index != spaces_occupied_)
-    {
-        if (items_[index] == target) {
-            return index;
-        }
-        index++;
+    for (int i = 0; i < spaces_occupied_; i++) {
+        ItemType type = items_[i];
+        if (type == target) return i;
     }
 
     return -1;
