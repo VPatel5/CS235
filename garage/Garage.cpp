@@ -123,17 +123,31 @@ void Garage<ItemType>::display() const {
 
 template<typename ItemType>
 void Garage<ItemType>::operator+=(const Garage <ItemType> &a_garage) {
-
+    for (int i = 0; i < a_garage.spaces_occupied_; i++) {
+        ItemType type = a_garage.items_[i];
+        add(type);
+        i += type.getSpaces() - 1;
+    }
 }
 
 template<typename ItemType>
 void Garage<ItemType>::operator-=(const Garage <ItemType> &a_garage) {
-
+    for (int i = 0; i < a_garage.spaces_occupied_; i++) {
+        ItemType type = a_garage.items_[i];
+        if (contains(type)) {
+            remove(type);
+        }
+    }
 }
 
 template<typename ItemType>
 void Garage<ItemType>::operator/=(const Garage <ItemType> &a_garage) {
-
+    for (int i = 0; i < spaces_occupied_; i++) {
+        ItemType type = items_[i];
+        if (!a_garage.contains(type)) {
+            remove(type);
+        }
+    }
 }
 
 template<typename ItemType>
