@@ -4,7 +4,7 @@
     <generated>
       <config projectName="HunterCollege" targetName="Cars" />
       <config projectName="HunterCollege" targetName="Motorcycle" />
-      <config projectName="HunterCollege" targetName="Test" />
+      <config projectName="HunterCollege" targetName="Garage" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -14,22 +14,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/garage/Garage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garage/Garage.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garage/Object.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garage/Vehicle.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/garage/test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Bus.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Bus.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Bus.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Bus.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Car.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Car.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Car.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Car.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/Garage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cars/Garage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Garage.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Motorcycle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Motorcycle.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Motorcycle.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Motorcycle.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Truck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Truck.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/Truck.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/Truck.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cars/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/adawd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +46,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oLMqbdTjT9VaEzlPTEitTlO9OZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,18 +66,18 @@
       <recent name="$PROJECT_DIR$/cars" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Cars">
+  <component name="RunManager" selected="CMake Application.Garage">
     <configuration name="Cars" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Cars" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Cars">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Motorcycle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Motorcycle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Motorcycle">
+    <configuration name="Garage" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Garage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Garage">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Test">
+    <configuration name="Motorcycle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Motorcycle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Motorcycle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -84,8 +89,8 @@
     </configuration>
     <list>
       <item itemvalue="CMake Application.Cars" />
+      <item itemvalue="CMake Application.Garage" />
       <item itemvalue="CMake Application.Motorcycle" />
-      <item itemvalue="CMake Application.Test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -101,7 +106,13 @@
       <workItem from="1613845414062" duration="529000" />
       <workItem from="1613924222663" duration="8557000" />
       <workItem from="1614193092311" duration="5200000" />
-      <workItem from="1614275363665" duration="313000" />
+      <workItem from="1614275363665" duration="559000" />
+      <workItem from="1614277706004" duration="309000" />
+      <workItem from="1615324502645" duration="731000" />
+      <workItem from="1615325459221" duration="1538000" />
+      <workItem from="1615327226639" duration="210000" />
+      <workItem from="1615327492856" duration="2491000" />
+      <workItem from="1615419483609" duration="899000" />
     </task>
     <servers />
   </component>
@@ -119,6 +130,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,9 +1,9 @@
-#ifndef GARAGE_
-#define GARAGE_
+#ifndef GARAGE_OLD_
+#define GARAGE_OLD_
 
 #include "Vehicle.hpp"
 
-class Garage {
+class GarageOld {
 
 private:
     /**
@@ -26,7 +26,7 @@ private:
 public:
 
     /* Parameterized constructor with a default argument for capacity of 12 */
-    Garage(size_t capacity = 12);
+    GarageOld(size_t capacity = 12);
 
     /**
        Inserts @param to_add into the number of spaces that correspond to its type
@@ -72,4 +72,4 @@ public:
 
 };
 
-#endif //GARAGE_
+#endif //GARAGE_OLD_

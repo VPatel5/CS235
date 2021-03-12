@@ -1,6 +1,7 @@
 #include "Garage.hpp"
 #include "cmath"
 
+
 namespace null
 {
     Vehicle v;
@@ -8,14 +9,14 @@ namespace null
 
 using namespace std;
 
-Garage::Garage(size_t capacity) {
+GarageOld::GarageOld(size_t capacity) {
     capacity_ = capacity;
     num_vehicles_ = 0;
 
     arr_ = new Vehicle[capacity];
 }
 
-void Garage::arrange() {
+void GarageOld::arrange() {
     int new_current_length = 0;
     int amount_of_null = 0;
     Vehicle *newArr_ = new Vehicle[capacity_];
@@ -40,7 +41,50 @@ void Garage::arrange() {
     current_length_ = new_current_length;
 }
 
-bool Garage::addVehicle(Vehicle to_add) {
+bool Gar#include "Garage.hpp"
+#include "cmath"
+
+
+namespace null
+{
+    Vehicle v;
+}
+
+using namespace std;
+
+GarageOld::GarageOld(size_t capacity) {
+    capacity_ = capacity;
+    num_vehicles_ = 0;
+
+    arr_ = new Vehicle[capacity];
+}
+
+void GarageOld::arrange() {
+    int new_current_length = 0;
+    int amount_of_null = 0;
+    Vehicle *newArr_ = new Vehicle[capacity_];
+
+    // Add all non null cars to new array
+    for (int i = 0; i < current_length_; i++) {
+        if (arr_[i] != null::v) {
+            newArr_[new_current_length] = arr_[i];
+            new_current_length++;
+            amount_of_null += arr_[i].getSpaces() - 1;
+        }
+    }
+
+    // Add all null cars to new array
+    for (int i = 0; i < amount_of_null; i++) {
+        newArr_[new_current_length] = null::v;
+        new_current_length++;
+    }
+
+    // Replace old array with new arranged
+    arr_ = newArr_;
+    current_length_ = new_current_length;
+}
+
+bool GarageOld::addVehicle(Vehicle to_add) {
     if (isFull()) return false;
     if (current_length_ + to_add.getSpaces() > capacity_) return false;
 
@@ -59,7 +103,7 @@ bool Garage::addVehicle(Vehicle to_add) {
     return true;
 }
 
-bool Garage::removeVehicle(Vehicle to_remove) {
+bool GarageOld::removeVehicle(Vehicle to_remove) {
     if (num_vehicles_ == 0) return false;
 
     for (int i = 0; i < current_length_; i++) {
@@ -77,7 +121,7 @@ bool Garage::removeVehicle(Vehicle to_remove) {
     return true;
 }
 
-bool Garage::swapVehicles(Vehicle swap_in, Vehicle swap_out) {
+bool GarageOld::swapVehicles(Vehicle swap_in, Vehicle swap_out) {
     bool result = false;
 
     removeVehicle(swap_out);
@@ -87,11 +131,11 @@ bool Garage::swapVehicles(Vehicle swap_in, Vehicle swap_out) {
     return result;
 }
 
-bool Garage::isFull() const {
+bool GarageOld::isFull() const {
     return current_length_ >= capacity_;
 }
 
-void Garage::display() const {
+void GarageOld::display() const {
     for (int i = 0; i < current_length_; i++) {
         Vehicle v = arr_[i];
         if (v != null::v) cout << v.getManufacturer() + " " << v.getName() << endl;

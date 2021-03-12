@@ -131,6 +131,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Garage
+
+# Build rule for target.
+Garage: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Garage
+.PHONY : Garage
+
+# fast build rule for target.
+Garage/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Garage.dir/build.make CMakeFiles/Garage.dir/build
+.PHONY : Garage/fast
+
+#=============================================================================
 # Target rules for targets named Cars
 
 # Build rule for target.
@@ -155,19 +168,6 @@ Motorcycle: cmake_check_build_system
 Motorcycle/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motorcycle.dir/build.make CMakeFiles/Motorcycle.dir/build
 .PHONY : Motorcycle/fast
-
-#=============================================================================
-# Target rules for targets named Test
-
-# Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Test
-.PHONY : Test
-
-# fast build rule for target.
-Test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
-.PHONY : Test/fast
 
 cars/Bus.o: cars/Bus.cpp.o
 
@@ -358,6 +358,33 @@ cars/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cars.dir/build.make CMakeFiles/Cars.dir/cars/main.cpp.s
 .PHONY : cars/main.cpp.s
 
+garage/test.o: garage/test.cpp.o
+
+.PHONY : garage/test.o
+
+# target to build an object file
+garage/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Garage.dir/build.make CMakeFiles/Garage.dir/garage/test.cpp.o
+.PHONY : garage/test.cpp.o
+
+garage/test.i: garage/test.cpp.i
+
+.PHONY : garage/test.i
+
+# target to preprocess a source file
+garage/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Garage.dir/build.make CMakeFiles/Garage.dir/garage/test.cpp.i
+.PHONY : garage/test.cpp.i
+
+garage/test.s: garage/test.cpp.s
+
+.PHONY : garage/test.s
+
+# target to generate assembly for a file
+garage/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Garage.dir/build.make CMakeFiles/Garage.dir/garage/test.cpp.s
+.PHONY : garage/test.cpp.s
+
 motorcycle/Motorcycle.o: motorcycle/Motorcycle.cpp.o
 
 .PHONY : motorcycle/Motorcycle.o
@@ -385,33 +412,6 @@ motorcycle/Motorcycle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Motorcycle.dir/build.make CMakeFiles/Motorcycle.dir/motorcycle/Motorcycle.cpp.s
 .PHONY : motorcycle/Motorcycle.cpp.s
 
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -421,8 +421,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cars"
+	@echo "... Garage"
 	@echo "... Motorcycle"
-	@echo "... Test"
 	@echo "... cars/Bus.o"
 	@echo "... cars/Bus.i"
 	@echo "... cars/Bus.s"
@@ -444,12 +444,12 @@ help:
 	@echo "... cars/main.o"
 	@echo "... cars/main.i"
 	@echo "... cars/main.s"
+	@echo "... garage/test.o"
+	@echo "... garage/test.i"
+	@echo "... garage/test.s"
 	@echo "... motorcycle/Motorcycle.o"
 	@echo "... motorcycle/Motorcycle.i"
 	@echo "... motorcycle/Motorcycle.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 
