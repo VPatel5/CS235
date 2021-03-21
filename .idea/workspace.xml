@@ -4,6 +4,7 @@
     <generated>
       <config projectName="HunterCollege" targetName="Cars" />
       <config projectName="HunterCollege" targetName="Motorcycle" />
+      <config projectName="HunterCollege" targetName="LinkedLists" />
       <config projectName="HunterCollege" targetName="Garage" />
     </generated>
   </component>
@@ -14,8 +15,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/linkedlists/DoubleNode.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlists/DoubleNode.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlists/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/garage/Garage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/garage/Garage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +42,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1oLMqbdTjT9VaEzlPTEitTlO9OZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -50,7 +72,12 @@
       <recent name="$PROJECT_DIR$/cars" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.Garage">
+  <component name="RunManager" selected="CMake Application.LinkedLists">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cars" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Cars" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Cars">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -61,19 +88,25 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkedLists" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="LinkedLists" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="LinkedLists">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Motorcycle" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HunterCollege" TARGET_NAME="Motorcycle" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="HunterCollege" RUN_TARGET_NAME="Motorcycle">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="CMake Application.Cars" />
       <item itemvalue="CMake Application.Garage" />
+      <item itemvalue="CMake Application.LinkedLists" />
       <item itemvalue="CMake Application.Motorcycle" />
     </list>
   </component>
@@ -98,6 +131,7 @@
       <workItem from="1615327492856" duration="2491000" />
       <workItem from="1615419483609" duration="899000" />
       <workItem from="1615575197955" duration="9070000" />
+      <workItem from="1616337832374" duration="15356000" />
     </task>
     <servers />
   </component>
@@ -135,6 +169,11 @@
           <url>file://$PROJECT_DIR$/garage/Garage.hpp</url>
           <line>68</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/linkedlists/main.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
