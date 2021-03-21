@@ -15,21 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedlists/DoubleNode.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlists/DoubleNode.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlists/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Motorcycle.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HunterCollege.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +117,7 @@
       <workItem from="1615327492856" duration="2491000" />
       <workItem from="1615419483609" duration="899000" />
       <workItem from="1615575197955" duration="9070000" />
-      <workItem from="1616337832374" duration="15356000" />
+      <workItem from="1616337832374" duration="16041000" />
     </task>
     <servers />
   </component>

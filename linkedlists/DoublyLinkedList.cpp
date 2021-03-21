@@ -106,6 +106,7 @@ template<typename ItemType>
 DoubleNode<ItemType> *DoublyLinkedList<ItemType>::getAtPos(const int &pos) const {
     if (isEmpty()) return nullptr;
     if (pos == 1) return head_;
+    if (pos == current_size_) return tail_;
     if (pos > current_size_) return nullptr;
 
     int counter = 1;
