@@ -14,6 +14,8 @@ DoublyLinkedList<ItemType>::DoublyLinkedList(const DoublyLinkedList<ItemType> &o
         new_current_ptr = new_current_ptr->getNext();
         current_ptr = current_ptr->getNext();
     }
+
+    tail_ = new_current_ptr;
 }
 
 template<typename ItemType>
@@ -152,7 +154,11 @@ template<typename ItemType>
 void DoublyLinkedList<ItemType>::display() const {
     DoubleNode<ItemType>* current_ptr = head_;
     while (current_ptr != nullptr) {
-        std::cout << current_ptr->getItem() << std::endl;
+        if (current_ptr == tail_) {
+            std::cout << current_ptr->getItem() << std::endl;
+        } else {
+            std::cout << current_ptr->getItem() << " ";
+        }
         current_ptr = current_ptr->getNext();
     }
 }
@@ -161,14 +167,19 @@ template<typename ItemType>
 void DoublyLinkedList<ItemType>::displayBackwards() const {
     DoubleNode<ItemType>* current_ptr = tail_;
     while (current_ptr != nullptr) {
-        std::cout << current_ptr->getItem() << std::endl;
+        if (current_ptr == head_) {
+            std::cout << current_ptr->getItem() << std::endl;
+        } else {
+            std::cout << current_ptr->getItem() << " ";
+        }
         current_ptr = current_ptr->getPrevious();
     }
 }
 
 template<typename ItemType>
 DoublyLinkedList<ItemType> DoublyLinkedList<ItemType>::interleave(const DoublyLinkedList<ItemType> &a_list) {
-    return DoublyLinkedList<ItemType>();
+    DoublyLinkedList<ItemType> interleaved;
+    return interleaved;
 }
 
 template<typename ItemType>
