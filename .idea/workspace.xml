@@ -15,12 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d261b02-a7c9-46b8-ad8c-05de79275a3e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linkedlists/a.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlists/DoublyLinkedList.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linkedlists/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlists/main.cpp" afterDir="false" />
@@ -129,7 +124,7 @@
       <workItem from="1616424365662" duration="1458000" />
       <workItem from="1617479904087" duration="178000" />
       <workItem from="1617480211464" duration="191000" />
-      <workItem from="1617480821774" duration="1588000" />
+      <workItem from="1617480821774" duration="3519000" />
     </task>
     <servers />
   </component>

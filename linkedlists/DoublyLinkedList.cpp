@@ -179,6 +179,32 @@ void DoublyLinkedList<ItemType>::displayBackwards() const {
 template<typename ItemType>
 DoublyLinkedList<ItemType> DoublyLinkedList<ItemType>::interleave(const DoublyLinkedList<ItemType> &a_list) {
     DoublyLinkedList<ItemType> interleaved;
+
+    DoubleNode<ItemType>* first_ptr = head_;
+    DoubleNode<ItemType>* second_ptr = a_list.head_;
+    int counter = 0;
+
+    while (first_ptr != nullptr || second_ptr != nullptr) {
+
+        if (first_ptr == nullptr && second_ptr != nullptr) {
+            interleaved.insert(second_ptr->getItem(), counter + 1);
+            second_ptr = second_ptr->getNext();
+        } else if (second_ptr == nullptr && first_ptr != nullptr) {
+            interleaved.insert(first_ptr->getItem(), counter + 1);
+            first_ptr = first_ptr->getNext();
+        } else {
+            if (counter % 2 == 0) {
+                interleaved.insert(first_ptr->getItem(), counter + 1);
+                first_ptr = first_ptr->getNext();
+            } else {
+                interleaved.insert(second_ptr->getItem(), counter + 1);
+                second_ptr = second_ptr->getNext();
+            }
+        }
+
+        counter++;
+    }
+
     return interleaved;
 }
 
