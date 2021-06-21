@@ -186,13 +186,17 @@ DoublyLinkedList<ItemType> DoublyLinkedList<ItemType>::interleave(const DoublyLi
 
     while (first_ptr != nullptr || second_ptr != nullptr) {
 
-        if (first_ptr == nullptr && second_ptr != nullptr) {
+        if (first_ptr == nullptr && second_ptr != nullptr)
+        {
             interleaved.insert(second_ptr->getItem(), counter + 1);
             second_ptr = second_ptr->getNext();
-        } else if (second_ptr == nullptr && first_ptr != nullptr) {
+        }
+        else if (second_ptr == nullptr && first_ptr != nullptr)
+        {
             interleaved.insert(first_ptr->getItem(), counter + 1);
             first_ptr = first_ptr->getNext();
-        } else {
+        }
+        else {
             if (counter % 2 == 0) {
                 interleaved.insert(first_ptr->getItem(), counter + 1);
                 first_ptr = first_ptr->getNext();

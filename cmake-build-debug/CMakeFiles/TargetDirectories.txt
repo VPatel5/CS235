@@ -1,5 +1,9 @@
 /Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Test.dir
+/Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Queues.dir
+/Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Sort.dir
+/Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Polymorphism.dir
 /Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Motorcycle.dir
 /Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/LinkedLists.dir
 /Users/patel/Desktop/HunterCollege/cmake-build-debug/CMakeFiles/Garage.dir

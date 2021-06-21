@@ -26,7 +26,7 @@ public:
 
     DoubleNode<ItemType> *getHeadPtr() const; // returns a copy of the hearPtr
 
-    DoubleNode<ItemType> *getTailPtr() const; // returns a copy of the hearPtr
+    DoubleNode<ItemType> *getTailPtr() const; // returns a copy of the tailPtr
 
     DoubleNode<ItemType> *getAtPos(const int &pos) const; // returns a pointer to the node located at pos
 
